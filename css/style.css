@@ -1,0 +1,321 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 90%;
+	margin:auto;
+	background: #151515;
+	font-family: verdana;
+}
+.logotipo{
+	padding: 20px;
+	display: inline-block;
+}
+.barraDerecha{;
+	display: inline-block;
+	float: right;
+}
+header .barraDerecha nav{
+	overflow: hidden;
+}
+header .barraDerecha nav ul{
+	list-style: none;
+}
+header .barraDerecha nav ul li{
+	padding-right: 30px;
+	padding-top: 90px;
+	text-align: center;
+	color:white;
+	float: right;
+}
+.contenedorSuperior{
+	width: 90%;
+	margin: auto;
+	background: #D8D8D8;
+	font-family: verdana;
+	padding: 20px;
+}
+.primeraFila .uno, .primeraFila .dos{
+	display: inline-block;
+	padding-bottom: 20px;
+}
+.primeraFila .uno{
+	font-size: 18px;
+	padding-left: 10px;
+}
+.primeraFila .dos{
+	font-size: 10px;
+	padding-left: 5px;
+	color: blue;
+}
+.columna1 , .columna2, .columna3, .columna4{
+	display: inline-block;
+	text-align: center;
+	color:blue;
+}
+.imagenA, .imagenB, .imagenC, .imagenD{
+	border:1px solid gray;
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	display: inline-block;
+}
+.imagenA{
+	margin-left: 10px;
+	background-image: url("../img/dlc.jpg");
+}
+.imagenB{
+	margin-left: 20px;
+	background-image: url("../img/almanac.jpg");
+}
+.imagenC{
+	margin-left: 20px;
+	background-image: url("../img/onthegrid.jpg");
+}
+.imagenD{
+	margin-left: 20px;
+	background-image: url("../img/changelog.jpg");
+}
+.contenedorInferior{
+	width: 90%;
+	margin:auto;
+	background: white;
+	font-family: verdana;
+	padding: 20px;
+}
+.fila1, .fila2, .fila3, .fila4, .fila5, .fila6, .fila7{
+	margin-top: 20px;
+}
+.columnaA, .columnaB, .columnaC, .columnaD, .columnaE{
+	display: inline-block;
+	font-size: 10px;
+	text-align: center;
+	color:blue;
+}
+.imagen1, .imagen2, .imagen3, .imagen4, .imagen5, .imagen6, .imagen7, .imagen8, .imagen9, .imagen10,
+.imagen11, .imagen12, .imagen13, .imagen14, .imagen15, .imagen16, .imagen17, .imagen18, .imagen19, .imagen20,
+.imagen21, .imagen22, .imagen23, .imagen24, .imagen25, .imagen26, .imagen27, .imagen28, .imagen29, .imagen30,
+.imagen31, .imagen32, .imagen33, .imagen34, .imagen35{
+
+	width: 140px;
+	height: 140px;
+	background-size: cover;
+	display: inline-block;
+}
+.imagen1{
+	background-image: url("../img/thumbs/after-dark.jpg");
+}
+.imagen2{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/amplified.jpg");
+}
+.imagen3{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/back-to-work.jpg");
+}
+.imagen4{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/better-know.jpg");
+}
+.imagen5{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/cash-corner.jpg");
+}
+.imagen6{
+	background-image: url("../img/thumbs/changelog.jpg");
+}
+.imagen7{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/critical-path.jpg");
+}
+.imagen8{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/dan.jpg");
+}
+.imagen9{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/dlc.jpg");
+}
+.imagen10{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/frequency.jpg");
+}
+.imagen11{
+	background-image: url("../img/thumbs/getting-there.jpg");
+}
+.imagen12{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/hablo-geek.jpg");
+}
+.imagen13{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/home-work.jpg");
+}
+.imagen14{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/human-survival.jpg");
+}
+.imagen15{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/ihnatko.jpg");
+}
+.imagen16{
+	background-image: url("../img/thumbs/latest-paleo.jpg");
+}
+.imagen17{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/mac-power.jpg");
+}
+.imagen18{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/morning-dump.jpg");
+}
+.imagen19{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/movies.jpg");
+}
+.imagen20{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/ohyes.jpg");
+}
+.imagen21{
+	background-image: url("../img/thumbs/on-taking-pictures.jpg");
+}
+.imagen22{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/on-the-grid.jpg");
+}
+.imagen23{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/pipeline-classic.jpg");
+}
+.imagen24{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/pipeline.jpg");
+}
+.imagen25{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/podcast-method.jpg");
+}
+.imagen26{
+	background-image: url("../img/thumbs/puromac.jpg");
+}
+.imagen27{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/quit.jpg");
+}
+.imagen28{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/ruby-on-rails-podcast.jpg");
+}
+.imagen29{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/specials.jpg");
+}
+.imagen30{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/steady.jpg");
+}
+.imagen31{
+	background-image: url("../img/thumbs/supercharged.jpg");
+}
+.imagen32{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/tech-douchebags.jpg");
+}
+.imagen33{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/the-big-show.jpg");
+}
+.imagen34{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/web-ahead.jpg");
+}
+.imagen35{
+	margin-left: 10px;
+	background-image: url("../img/thumbs/write-for-life.jpg");
+}
+.parteIzquierda , .parteDerecha{
+	display: inline-block;
+}
+.parteDerecha{
+	padding-top: 20px;
+	padding-right: 20px;
+	float: right;
+}
+.primerRectangulo, .segundoRectangulo{
+	padding-top: 10px;
+}
+h5{
+	color: gray;
+	font-size: 12px;
+	padding: 5px;
+	border-bottom: 2px solid gray;
+}
+.principal .contenedorInferior .parteDerecha ul li{
+	padding-left: 20px;
+	list-style: none;
+	color:blue;
+}
+.icon{
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+}
+.terceroRectangulo {
+	width: 220px;
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 2px solid gray;
+}
+.barrafooter{
+	padding-top: 50px;
+	background:#585858;
+	width: 90%;
+	height: 250px;
+	margin: auto;
+}
+footer nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+footer nav ul li{
+	padding: 10px;
+	display: inline-block;
+}
+footer nav ul li a{
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: verdana;
+	text-align: center;
+}
+.primertexto{
+	width: 80%;
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	color: white;
+	margin: auto;
+}
+.segundotexto{
+	font-family: verdana;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+}
+.tercertexto{
+	text-align: center;
+	font-family: verdana;
+	font-size: 10px;
+	color: #999994;
+}
+
+
+
+
+
